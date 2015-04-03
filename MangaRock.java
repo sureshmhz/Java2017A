@@ -1,27 +1,14 @@
-package com;
-import java.util.Scanner;
-
 /**
- * Created by DELL on 4/2/2015.
+ * Created by DELL on 4/3/2015.
  */
 public class MangaRock {
-    public static void main (String[] args){
+    public static void main(String [] args){
 
-      String userData;
-      String readManga;
-      String manga;
-
-      new
-
-       String readManga( userData ){
-
-        }
+        ReadManga reader= new ReadManga();
+        SearchManga search= new SearchManga();
 
 
-        String manga()
-        {
-
-        }
+        reader.manga();
+        search.name();
     }
-
 }
